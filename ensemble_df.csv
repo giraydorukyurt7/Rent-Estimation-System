@@ -1,0 +1,199 @@
+Ensemble Type,RMSE,MAPE,Models used,Training Time (s)
+Stacking,4657.24,0.1994,DecisionTree + RandomForest + XGBoost,15.54
+Stacking,4661.0,0.1999,RandomForest + GBM + XGBoost,17.09
+Stacking,4665.1,0.1999,KNN + DecisionTree + RandomForest + XGBoost,19.4
+Stacking,4663.06,0.2,KNN + RandomForest + XGBoost,21.63
+Stacking,4667.92,0.2005,KNN + DecisionTree + SVR + RandomForest + XGBoost,37.17
+Stacking,4660.99,0.2005,KNN + SVR + RandomForest + GBM + XGBoost,38.88
+Stacking,4653.16,0.2005,KNN + RandomForest + GBM + XGBoost,21.94
+Stacking,4673.64,0.2006,DecisionTree + SVR + RandomForest + XGBoost,32.9
+Stacking,4667.95,0.2007,SVR + RandomForest + GBM + XGBoost,34.6
+Stacking,4669.41,0.2007,KNN + DecisionTree + SVR + RandomForest + GBM + XGBoost,39.5
+Stacking,4671.25,0.2008,KNN + SVR + RandomForest + XGBoost,37.1
+Stacking,4679.13,0.2009,KNN + DecisionTree + RandomForest + GBM,16.16
+Stacking,4667.98,0.201,KNN + SVR + RandomForest + GBM,34.0
+Stacking,4672.6,0.2012,DecisionTree + RandomForest + GBM + XGBoost,17.52
+Stacking,4674.47,0.2012,DecisionTree + RandomForest + GBM,11.88
+Stacking,4668.95,0.2013,DecisionTree + SVR + RandomForest + GBM + XGBoost,34.88
+Stacking,4677.71,0.2014,SVR + RandomForest + XGBoost,32.38
+Stacking,4683.55,0.2015,KNN + DecisionTree + SVR + LightGBM + RandomForest + GBM + XGBoost,39.77
+Stacking,4684.18,0.2015,KNN + DecisionTree + LightGBM + RandomForest + XGBoost,19.83
+Stacking,4681.42,0.2016,KNN + DecisionTree + LightGBM + RandomForest + GBM + XGBoost,21.81
+Stacking,4675.73,0.2016,DecisionTree + SVR + LightGBM + RandomForest + GBM + XGBoost,35.52
+Stacking,4677.85,0.2016,KNN + DecisionTree + RandomForest + GBM + XGBoost,21.7
+Stacking,4673.47,0.2017,KNN + GBM + XGBoost,14.96
+Stacking,4691.42,0.2017,KNN + DecisionTree + SVR + LightGBM + RandomForest + XGBoost,37.42
+Stacking,4701.91,0.2019,DecisionTree + LightGBM + RandomForest + XGBoost,15.37
+Stacking,4693.74,0.202,KNN + LightGBM + RandomForest + GBM + XGBoost,21.62
+Stacking,4682.46,0.2021,SVR + GBM + XGBoost,25.9
+Stacking,4694.29,0.2021,DecisionTree + SVR + LightGBM + RandomForest + XGBoost,33.53
+Stacking,4695.56,0.2021,SVR + LightGBM + RandomForest + XGBoost,32.64
+Stacking,4688.79,0.2022,DecisionTree + LightGBM + RandomForest + GBM + XGBoost,17.75
+Stacking,4704.98,0.2024,KNN + LightGBM + RandomForest + XGBoost,19.41
+Stacking,4706.8,0.2024,KNN + SVR + LightGBM + RandomForest + GBM + XGBoost,39.09
+Stacking,4704.28,0.2024,SVR + LightGBM + RandomForest + GBM + XGBoost,34.98
+Stacking,4702.77,0.2024,LightGBM + RandomForest + XGBoost,14.92
+Stacking,4678.11,0.2025,DecisionTree + GBM + XGBoost,8.65
+Stacking,4705.95,0.2026,KNN + DecisionTree + SVR + GBM + XGBoost,31.3
+Stacking,4698.62,0.2027,KNN + SVR + GBM + XGBoost,30.93
+Stacking,4705.32,0.2027,KNN + SVR + LightGBM + RandomForest + XGBoost,37.16
+Stacking,4676.25,0.2028,KNN + RandomForest + GBM,15.62
+Stacking,4685.89,0.2031,LightGBM + RandomForest + GBM,11.64
+Averaging,4660.31,0.2031,RandomForest + GBM + XGBoost,0.12
+Stacking,4690.08,0.2031,KNN + DecisionTree + SVR + LightGBM + RandomForest + GBM,33.49
+Stacking,4718.65,0.2033,SVR + LightGBM + RandomForest + GBM,29.3
+Stacking,4720.49,0.2034,DecisionTree + LightGBM + RandomForest + GBM,12.0
+Stacking,4700.75,0.2034,DecisionTree + SVR + RandomForest + GBM,29.77
+Stacking,4716.63,0.2034,KNN + DecisionTree + SVR + LightGBM + GBM + XGBoost,31.14
+Stacking,4697.65,0.2035,KNN + DecisionTree + GBM + XGBoost,12.91
+Stacking,4709.78,0.2036,KNN + DecisionTree + LightGBM + RandomForest + GBM,16.26
+Stacking,4712.27,0.2036,LightGBM + RandomForest + GBM + XGBoost,17.34
+Stacking,4696.15,0.2037,SVR + RandomForest + GBM,28.93
+Stacking,4701.88,0.2037,DecisionTree + SVR + GBM + XGBoost,26.27
+Stacking,4700.58,0.2037,KNN + DecisionTree + SVR + RandomForest + GBM,33.49
+Stacking,4705.57,0.2038,DecisionTree + LightGBM + GBM + XGBoost,9.01
+Stacking,4691.59,0.2038,KNN + LightGBM + RandomForest + GBM,16.12
+Stacking,4715.16,0.204,DecisionTree + SVR + LightGBM + RandomForest + GBM,29.65
+Stacking,4732.57,0.2041,KNN + DecisionTree + SVR + XGBoost,28.29
+Stacking,4734.43,0.2042,KNN + SVR + XGBoost,27.67
+Stacking,4740.34,0.2042,DecisionTree + SVR + LightGBM + RandomForest,27.15
+Stacking,4742.19,0.2042,KNN + DecisionTree + LightGBM + RandomForest,14.48
+Stacking,4734.32,0.2042,KNN + DecisionTree + SVR + LightGBM + RandomForest,32.0
+Stacking,4739.8,0.2043,SVR + LightGBM + RandomForest,26.89
+Stacking,4744.75,0.2043,DecisionTree + LightGBM + RandomForest,9.77
+Stacking,4736.01,0.2043,DecisionTree + SVR + XGBoost,24.43
+Stacking,4735.81,0.2044,KNN + DecisionTree + XGBoost,10.55
+Stacking,4713.51,0.2044,DecisionTree + SVR + LightGBM + GBM + XGBoost,27.12
+Stacking,4726.55,0.2046,KNN + SVR + LightGBM + GBM + XGBoost,30.49
+Stacking,4703.04,0.2046,KNN + LightGBM + GBM + XGBoost,13.42
+Stacking,4714.73,0.2047,KNN + SVR + LightGBM + RandomForest + GBM,34.1
+Stacking,4743.79,0.2049,KNN + SVR + LightGBM + RandomForest,31.53
+Stacking,4731.71,0.205,LightGBM + GBM + XGBoost,8.5
+Averaging,4692.1,0.205,LightGBM + RandomForest + GBM + XGBoost,0.11
+Stacking,4745.81,0.205,KNN + DecisionTree + SVR + RandomForest,31.27
+Stacking,4748.56,0.2051,KNN + SVR + RandomForest,30.71
+Stacking,4751.86,0.2052,KNN + DecisionTree + SVR + LightGBM + XGBoost,28.35
+Stacking,4738.78,0.2053,DecisionTree + SVR + RandomForest,27.78
+Stacking,4740.26,0.2053,KNN + DecisionTree + LightGBM + GBM + XGBoost,13.2
+Stacking,4748.06,0.2053,KNN + SVR + GBM,24.39
+Stacking,4754.65,0.2054,KNN + LightGBM + RandomForest,13.47
+Stacking,4754.62,0.2055,DecisionTree + SVR + LightGBM + XGBoost,24.16
+Stacking,4744.73,0.2055,SVR + LightGBM + GBM + XGBoost,26.25
+Stacking,4767.9,0.2055,KNN + DecisionTree + RandomForest,13.49
+Stacking,4733.16,0.2055,KNN + DecisionTree + LightGBM + GBM,7.39
+Stacking,4755.39,0.2056,KNN + SVR + LightGBM + XGBoost,28.74
+Averaging,4712.11,0.2058,LightGBM + RandomForest + XGBoost,0.1
+Stacking,4757.95,0.2058,SVR + LightGBM + XGBoost,23.74
+Stacking,4758.52,0.2059,KNN + DecisionTree + LightGBM + XGBoost,10.98
+Stacking,4761.04,0.206,KNN + LightGBM + XGBoost,10.4
+Averaging,4736.51,0.2061,SVR + RandomForest + GBM + XGBoost,0.38
+Stacking,4745.38,0.2061,KNN + LightGBM + GBM,7.13
+Stacking,4766.08,0.2065,DecisionTree + LightGBM + XGBoost,6.79
+Averaging,4769.06,0.2066,SVR + GBM + XGBoost,0.33
+Averaging,4732.28,0.2067,LightGBM + GBM + XGBoost,0.04
+Stacking,4741.59,0.2068,DecisionTree + SVR + GBM,20.88
+Averaging,4739.84,0.207,SVR + LightGBM + RandomForest + GBM + XGBoost,0.4
+Stacking,4759.34,0.207,KNN + DecisionTree + GBM,7.12
+Stacking,4764.23,0.2072,KNN + DecisionTree + SVR + GBM,25.75
+Stacking,4779.12,0.2076,KNN + SVR + LightGBM + GBM,25.23
+Averaging,4776.11,0.2076,SVR + RandomForest + XGBoost,0.37
+Averaging,4769.58,0.2079,SVR + LightGBM + RandomForest + XGBoost,0.39
+Stacking,4780.67,0.2079,SVR + LightGBM + GBM,20.49
+Averaging,4791.4,0.2082,SVR + LightGBM + GBM + XGBoost,0.33
+Stacking,4769.24,0.2084,DecisionTree + SVR + LightGBM + GBM,21.56
+Averaging,4730.0,0.2086,LightGBM + RandomForest + GBM,0.08
+Stacking,4772.64,0.2087,KNN + DecisionTree + SVR + LightGBM + GBM,25.12
+Averaging,4778.01,0.2091,SVR + LightGBM + RandomForest + GBM,0.33
+Averaging,4782.41,0.2094,SVR + RandomForest + GBM,0.33
+Stacking,4803.96,0.21,DecisionTree + LightGBM + GBM,3.26
+Averaging,4843.74,0.21,SVR + LightGBM + XGBoost,0.32
+Averaging,4854.52,0.2113,SVR + LightGBM + GBM,0.27
+Averaging,4789.76,0.2116,DecisionTree + RandomForest + GBM + XGBoost,0.13
+Averaging,4790.39,0.2116,DecisionTree + LightGBM + RandomForest + GBM + XGBoost,0.13
+Averaging,4818.52,0.212,DecisionTree + SVR + RandomForest + GBM + XGBoost,0.39
+Averaging,4813.33,0.2121,DecisionTree + SVR + LightGBM + RandomForest + GBM + XGBoost,0.42
+Averaging,4853.81,0.2122,SVR + LightGBM + RandomForest,0.32
+Averaging,4787.74,0.2136,KNN + LightGBM + RandomForest + GBM + XGBoost,1.22
+Averaging,4868.66,0.2137,DecisionTree + SVR + GBM + XGBoost,0.34
+Averaging,4825.48,0.2139,KNN + SVR + LightGBM + RandomForest + GBM + XGBoost,1.37
+Averaging,4863.12,0.214,DecisionTree + SVR + LightGBM + GBM + XGBoost,0.34
+Averaging,4840.13,0.214,DecisionTree + LightGBM + GBM + XGBoost,0.06
+Averaging,4863.19,0.2142,DecisionTree + SVR + LightGBM + RandomForest + XGBoost,0.4
+Averaging,4848.19,0.2143,DecisionTree + LightGBM + RandomForest + XGBoost,0.12
+Averaging,4858.25,0.2146,DecisionTree + SVR + LightGBM + RandomForest + GBM,0.35
+Averaging,4864.62,0.2153,DecisionTree + GBM + XGBoost,0.06
+Averaging,4890.01,0.2154,DecisionTree + SVR + RandomForest + XGBoost,0.38
+Averaging,4863.23,0.2156,DecisionTree + LightGBM + RandomForest + GBM,0.1
+Stacking,4917.8,0.2158,KNN + DecisionTree + SVR + LightGBM,23.31
+Averaging,4820.68,0.2158,KNN + RandomForest + GBM + XGBoost,1.2
+Averaging,4857.61,0.2158,KNN + SVR + RandomForest + GBM + XGBoost,1.41
+Stacking,4917.33,0.2158,KNN + SVR + LightGBM,22.16
+Averaging,4888.37,0.2162,DecisionTree + RandomForest + XGBoost,0.11
+Stacking,4927.73,0.2163,DecisionTree + SVR + LightGBM,18.88
+Averaging,4831.06,0.2164,KNN + LightGBM + GBM + XGBoost,1.16
+Averaging,4866.7,0.2168,KNN + DecisionTree + SVR + LightGBM + RandomForest + GBM + XGBoost,1.44
+Stacking,4933.49,0.2169,KNN + DecisionTree + LightGBM,5.18
+Averaging,4895.84,0.217,DecisionTree + RandomForest + GBM,0.09
+Averaging,4885.84,0.217,KNN + SVR + LightGBM + RandomForest + XGBoost,1.53
+Averaging,4915.85,0.2171,DecisionTree + SVR + RandomForest + GBM,0.34
+Averaging,4890.54,0.2171,KNN + SVR + LightGBM + GBM + XGBoost,1.36
+Averaging,4940.17,0.2173,DecisionTree + SVR + LightGBM + XGBoost,0.33
+Averaging,4851.69,0.2176,KNN + DecisionTree + LightGBM + RandomForest + GBM + XGBoost,1.17
+Averaging,4855.17,0.2177,KNN + LightGBM + RandomForest + XGBoost,1.14
+Averaging,4942.6,0.2183,DecisionTree + LightGBM + XGBoost,0.05
+Averaging,4904.15,0.2184,KNN + SVR + LightGBM + RandomForest + GBM,1.42
+Averaging,4954.98,0.2186,DecisionTree + SVR + LightGBM + GBM,0.28
+Averaging,4890.96,0.2188,KNN + DecisionTree + SVR + RandomForest + GBM + XGBoost,1.38
+Averaging,4930.42,0.2189,KNN + SVR + GBM + XGBoost,1.35
+Averaging,4869.35,0.219,KNN + LightGBM + RandomForest + GBM,1.18
+Averaging,4959.64,0.2191,DecisionTree + SVR + LightGBM + RandomForest,0.33
+Averaging,4874.6,0.2194,KNN + DecisionTree + RandomForest + GBM + XGBoost,1.17
+Averaging,4926.68,0.2196,KNN + DecisionTree + SVR + LightGBM + GBM + XGBoost,1.34
+Averaging,4889.2,0.2199,KNN + GBM + XGBoost,1.95
+Averaging,4951.88,0.2201,KNN + SVR + RandomForest + XGBoost,1.42
+Averaging,4938.05,0.2202,DecisionTree + LightGBM + GBM,0.04
+Averaging,4932.66,0.2203,KNN + DecisionTree + SVR + LightGBM + RandomForest + XGBoost,1.39
+Averaging,4956.28,0.2203,DecisionTree + LightGBM + RandomForest,0.08
+Averaging,4903.44,0.2204,KNN + DecisionTree + LightGBM + GBM + XGBoost,1.12
+Averaging,5015.7,0.2206,DecisionTree + SVR + XGBoost,0.31
+Averaging,4917.98,0.2212,KNN + DecisionTree + LightGBM + RandomForest + XGBoost,1.17
+Averaging,4946.07,0.2212,KNN + DecisionTree + SVR + LightGBM + RandomForest + GBM,1.29
+Averaging,4978.75,0.2213,KNN + SVR + LightGBM + XGBoost,1.42
+Averaging,4928.96,0.2217,KNN + RandomForest + XGBoost,1.12
+Averaging,5014.83,0.2221,DecisionTree + SVR + GBM,0.27
+Averaging,4931.9,0.2222,KNN + DecisionTree + LightGBM + RandomForest + GBM,1.14
+Averaging,4990.65,0.2224,KNN + SVR + LightGBM + GBM,1.25
+Averaging,4968.24,0.2224,KNN + DecisionTree + SVR + GBM + XGBoost,1.36
+Averaging,4984.72,0.2226,KNN + SVR + RandomForest + GBM,1.36
+Averaging,4927.9,0.2228,KNN + RandomForest + GBM,1.18
+Averaging,4956.35,0.2232,KNN + LightGBM + XGBoost,1.14
+Averaging,5045.79,0.2232,DecisionTree + SVR + RandomForest,0.38
+Averaging,4987.24,0.2233,KNN + DecisionTree + SVR + RandomForest + XGBoost,1.48
+Averaging,5017.4,0.224,KNN + SVR + LightGBM + RandomForest,1.33
+Averaging,4958.41,0.224,KNN + DecisionTree + GBM + XGBoost,1.15
+Averaging,5013.15,0.2243,KNN + DecisionTree + SVR + LightGBM + XGBoost,1.33
+Averaging,4971.07,0.225,KNN + LightGBM + GBM,1.09
+Averaging,5107.1,0.2255,DecisionTree + SVR + LightGBM,0.29
+Averaging,5014.0,0.2256,KNN + DecisionTree + SVR + RandomForest + GBM,1.31
+Averaging,5030.46,0.2257,KNN + DecisionTree + SVR + LightGBM + GBM,1.27
+Averaging,4988.35,0.2257,KNN + DecisionTree + RandomForest + XGBoost,1.13
+Averaging,5041.27,0.2265,KNN + DecisionTree + SVR + LightGBM + RandomForest,1.45
+Averaging,5015.04,0.2265,KNN + DecisionTree + LightGBM + XGBoost,1.11
+Averaging,5007.77,0.2265,KNN + LightGBM + RandomForest,1.18
+Averaging,5104.24,0.227,KNN + SVR + XGBoost,1.35
+Averaging,5029.53,0.2278,KNN + DecisionTree + LightGBM + GBM,1.14
+Averaging,5015.98,0.2278,KNN + DecisionTree + RandomForest + GBM,1.13
+Averaging,5045.08,0.2289,KNN + DecisionTree + LightGBM + RandomForest,1.07
+Averaging,5112.09,0.2296,KNN + DecisionTree + SVR + XGBoost,1.32
+Averaging,5133.21,0.2299,KNN + SVR + GBM,1.35
+Stacking,5190.8,0.2301,KNN + DecisionTree + SVR,22.76
+Averaging,5136.53,0.2313,KNN + DecisionTree + SVR + GBM,1.25
+Averaging,5178.34,0.2313,KNN + SVR + RandomForest,1.32
+Averaging,5205.63,0.2328,KNN + SVR + LightGBM,1.23
+Averaging,5165.72,0.2329,KNN + DecisionTree + SVR + RandomForest,1.3
+Averaging,5185.3,0.2333,KNN + DecisionTree + SVR + LightGBM,1.26
+Averaging,5157.46,0.2349,KNN + DecisionTree + XGBoost,1.13
+Averaging,5166.33,0.2366,KNN + DecisionTree + GBM,1.07
+Averaging,5232.11,0.2393,KNN + DecisionTree + RandomForest,1.17
+Averaging,5245.83,0.2394,KNN + DecisionTree + LightGBM,1.1
+Averaging,5423.63,0.2448,KNN + DecisionTree + SVR,1.56
