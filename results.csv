@@ -1,0 +1,8 @@
+Model,RMSE,MAPE,Best Params,Training Time (s)
+KNN,6419.426173297419,0.2920458935887653,"{'n_neighbors': 11, 'p': 1, 'weights': 'distance'}",35.34100079536438
+DecisionTree,5899.69664818684,0.2607026204137362,"{'criterion': 'squared_error', 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 10}",16.535500526428223
+SVR,5398.246757642905,0.228870629706863,"{'C': 100, 'epsilon': 0.1, 'gamma': 'scale', 'kernel': 'linear'}",287.15300011634827
+LightGBM,4953.731574457276,0.2181075500997907,"{'feature_fraction': 0.8, 'learning_rate': 0.2, 'max_depth': 4, 'n_estimators': 200, 'reg_alpha': 0.1, 'reg_lambda': 0, 'subsample': 0.8}",61.73399782180786
+RandomForest,4786.827366790712,0.2100864259164261,"{'bootstrap': False, 'criterion': 'squared_error', 'max_depth': None, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 200}",322.9595000743866
+GBM,4827.0845207042785,0.2093871884903249,"{'learning_rate': 0.1, 'loss': 'squared_error', 'max_depth': 7, 'max_features': 'sqrt', 'n_estimators': 200, 'subsample': 0.8}",191.14750003814697
+XGBoost,4744.075053078235,0.20397076697073344,"{'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200, 'reg_alpha': 0.1, 'subsample': 0.8}",560.9065008163452
