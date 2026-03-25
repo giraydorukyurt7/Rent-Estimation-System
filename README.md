@@ -16,13 +16,13 @@ The original train and test datasets were first merged for analysis, producing a
 
 Key preprocessing steps included:
 
-- Splitting room information into separate room and living room counts
-- Converting house age and house size to numeric values
-- Filtering rare and extreme values
-- Engineering location features for city, district, and neighborhood
-- Handling categorical variables with one-hot encoding
-- Reducing noisy or low-frequency heating and housing-type categories
-- Converting selected binary-like fields into model-friendly form
+- splitting room information into separate room and living room counts
+- converting house age and house size to numeric values
+- filtering rare and extreme values
+- engineering location features for city / district / neighborhood
+- handling categorical variables with one-hot encoding
+- reducing noisy or low-frequency heating and housing-type categories
+- converting selected binary-like fields into model-friendly form
 
 ## Models
 
@@ -45,29 +45,28 @@ To go beyond single-model performance, two ensemble strategies were applied:
 - **Averaging**
 - **Stacking**
 
-For stacking, base model predictions were used as inputs to a **Linear Regression** meta-model. The project evaluated **all combinations of 3 or more models**, resulting in **198 ensemble configurations** across the two ensemble types.
+For stacking, base model predictions were combined through a **Linear Regression** meta-model.
+
+Instead of testing only a few fixed ensembles, the project evaluated **all model combinations containing 3 or more regressors**. With 7 base models and 2 ensemble types, this resulted in **198 ensemble configurations**.
 
 ## Results
 
-### Best Single Model
-
+### Best single model
 - **XGBoost**
 - **RMSE:** 4744.08
-- **MAPE:** 0.2039
+- **MAPE:** 0.203971
 
-### Best Stacking Ensemble
-
-- **Decision Tree + Random Forest + XGBoost**
+### Best stacking ensemble
+- **DecisionTree + RandomForest + XGBoost**
 - **RMSE:** 4657.24
 - **MAPE:** 0.1994
 
-### Best Averaging Ensemble Shown in the Report
-
-- **Random Forest + GBM + XGBoost**
+### Best averaging ensemble
+- **RandomForest + GBM + XGBoost**
 - **RMSE:** 4660.31
 - **MAPE:** 0.2031
 
-The results showed that both ensemble approaches reduced error compared with weaker single models, and stacking performed better than averaging in the best reported configurations.
+The results showed that both ensemble approaches reduced prediction error compared with weaker single-model baselines, and the best stacking configurations outperformed averaging.
 
 ## Technologies Used
 
@@ -78,7 +77,6 @@ The results showed that both ensemble approaches reduced error compared with wea
 - XGBoost
 - LightGBM
 - Matplotlib
-- Visualization tools
 
 ## Key Takeaways
 
@@ -86,8 +84,8 @@ This project is best viewed as a **feature engineering + ensemble regression stu
 
 Its main strengths are:
 
-- Strong preprocessing over noisy real-world data
-- Structured categorical feature engineering
-- Broad model comparison
-- Systematic ensemble search across many combinations
-- Measurable gains from stacking and averaging
+- strong preprocessing over noisy real-world data
+- structured categorical feature engineering
+- broad model comparison
+- systematic ensemble search across many combinations
+- measurable gains from stacking and averaging
